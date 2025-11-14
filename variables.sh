@@ -1,0 +1,8 @@
+export AWS_REGION="us-east-1"
+export INSTANCE_TYPE="t2.micro"
+export AMI_ID="ami-0c02fb55956c7d316"
+export KEY_NAME="jenkins-demo-key"
+export SECURITY_GROUP="sg-0123456789abcdef0"
+export SUBNET_ID="subnet-0123456789abcdef0"
+export TAG_NAME="EC2-Created-By-Jenkins"
+export TAG_ENV="DEV"
