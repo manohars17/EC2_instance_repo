@@ -20,7 +20,7 @@ pipeline {
         export INSTANCE_TYPE=${INSTANCE_TYPE}
         export AMI_ID=${AMI_ID}
         export TAG_ENV=${TAG_ENV}
-        bash scripts/create_ec2.sh
+        bash create_ec2.sh
         '''
       }
     }
