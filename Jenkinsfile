@@ -10,7 +10,7 @@ pipeline {
 
   stages {
     stage('Checkout') {
-      steps { git url: 'https://github.com/manohars17/EC2_instance_repo.git' }
+      steps { git branch: 'main', url: 'https://github.com/manohars17/EC2_instance_repo.git'}
     }
 
     stage('Create EC2') {
